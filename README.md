@@ -10,7 +10,11 @@ Databricks, utilizing a community license, was employed for this purpose. The da
 In order to go beyond simple sentiment polarity calculation, we performed emotions analysis, identifying anger, sadness, joy, rationality, security, and uncertainty.
 The workflow used is as follows:
 
+![Screenshot](images/ToneAnalyzer.PNG)
+
 - Automatic creation of a training set of labeled tweets with emotions using the IBM Watson Tone Analyzer service through APIs. This choice was made due to the pricing of IBM's service.
+
+![Screenshot](images/Workflow.PNG)
 
 - The training set was then used to fine-tune BERT on Google Colab. In this case, a binary classification of 0 or 1 was implemented for each emotion.
 
