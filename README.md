@@ -16,6 +16,6 @@ The workflow used is as follows:
 
 ![Screenshot](images/ToneAnalyzer.PNG)
 
-- The training set was then used to fine-tune BERT on Google Colab. In this case, a binary classification of 0 or 1 was implemented for each emotion.
+- The training set was then used to fine-tune BERT on Google Colab. In this case, a binary classification was implemented for each emotion.
 
 
